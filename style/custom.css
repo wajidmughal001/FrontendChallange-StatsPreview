@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0d001a;
+    color:white;
+
+}
+.conatiner{
+    width: 80%;
+    border: 1px red solid;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  
+  .flex-item-left {
+    background-color: #330066;
+    flex: 50%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .heading{
+      margin: 50px;
+  }
+  
+  .flex-item-right {
+    margin: 0;
+    flex: 50%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .image{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+/* .row{
+    border-radius: 10px;
+    background-color: blueviolet;
+
+} */
